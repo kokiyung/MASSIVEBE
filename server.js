@@ -75,7 +75,7 @@ app.post('/payment', (req, res) => {
     const values = [
         "Test789",
         "Paket Hemat 53",
-        "Rp. 65000",
+        "65000",
         req.body.name,
         req.body.date,
         req.body.time,
